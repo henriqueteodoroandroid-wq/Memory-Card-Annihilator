@@ -131,7 +131,7 @@ bool CPS2Application::initLanguage(const std::string& bootPath)
 		// Korean, Traditional and Simplified Chinese do not have a valid font yet
 	};
 	
-	std::string defaultLangFile = "mass:/APPS/MCA/lang.lng";
+	std::string defaultLangFile = "mass0:/APPS/MCA/lang.lng";
 	if (loadLanguage(defaultLangFile))
 		return true;
 
